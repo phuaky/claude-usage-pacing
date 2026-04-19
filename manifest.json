@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Claude Usage Pacing",
+  "description": "Shows linear pace targets and remaining budget for each Claude usage limit, in your local time.",
+  "version": "2.0",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://claude.ai/settings/usage*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
