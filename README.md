@@ -2,7 +2,7 @@
 
 A tiny Chrome extension that overlays linear-pace targets on your `claude.ai/settings/usage` page so you can see, at a glance, whether you are ahead or behind on each limit — All models, Sonnet, Design, spend, session — in your **local time**.
 
-![demo](https://placehold.co/600x100?text=Overlay+shows+on+claude.ai/settings/usage)
+![Claude Usage Pacing overlay](docs/screenshot.png)
 
 ## What it adds
 
